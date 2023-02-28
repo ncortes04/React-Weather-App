@@ -1,0 +1,52 @@
+#root {
+  width: 100svw;
+  height: 100svh;
+}
+.main {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+header{
+  background-color: burlywood;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  }
+.main-div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.card-row{
+  display: flex;
+  gap: 10px;
+}
+.card {
+  width: 180px;
+  height: 260px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.388);
+}
+.card-header{
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px;
+  margin: 0;
+}
+.lightclouds{
+  background-color: aquamarine;
+}
+.lightsnow{
+  background: linear-gradient(180deg, rgb(227, 244, 253) 0.00%, rgb(60, 185, 235) 100.00%);
+}
+.brokenclouds, .overcastclouds {
+ background: linear-gradient(132deg, rgb(163, 172, 181) 0.00%, rgb(36, 37, 38) 100.00%);
+}
+
+.lightrain{
+  background: linear-gradient(196deg, rgb(227, 244, 253) 0.00%, rgb(170, 209, 226) 100.00%);
+}

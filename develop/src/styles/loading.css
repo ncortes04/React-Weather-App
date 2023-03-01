@@ -1,0 +1,29 @@
+@keyframes loader {
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+.loading-container {
+    padding: 10px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+    animation: loader 2s infinite ease-in-out;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.loading-dot {
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
